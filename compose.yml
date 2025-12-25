@@ -14,5 +14,5 @@ services:
       - N8N_PROTOCOL=http
       - NODE_ENV=production
       - GENERIC_TIMEZONE=Asia/Dubai
-    volumes:
+    volumes: []
       - ./n8n_data:/home/node/.n8n
